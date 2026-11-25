@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+header{
+    background: #003366;
+    color:white ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.tour{
+    background-color: #87cEEB;
+    background-image: url('water\ -\ Copy.jfif');
+    background-size: cover;
+    background-position: center;
+    padding: 90px 20px;
+    text-shadow: 2px 2px 5px;
+    color: white;
+    text-align: center;
+    text-size-adjust: ;
+}
+.tour h2{font: size 41px;
+    margin-bottom: 10px}
+.tour p{font-size: 18px;
+     margin-bottom: 24px;}
+.button{
+    background:rgb(68, 68, 166);
+    color:white;
+    padding:13px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+}
+#places{
+    padding: 40px 20px;
+    text-align: center;
+}
+#places h2{
+    margin-bottom: 20px;
+    color: #003366;
+}
+.places-box{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: 300px;
+    border:1px  ;
+    border-radius: 12px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 4px 10px;
+}
+.card img{
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+.card h3{
+    margin: 12px 5px;
+    color: #003366;
+}
+.card p{
+    margin-bottom: 10px;
+    color: #555;
+}
+#booking{
+    padding: 40px 20px;
+    background: whitesmoke;
+    text-align: center;
+}
+#booking h2{
+    margin-bottom: 20px;
+    color:#003366;
+}
+.card p{
+    margin-bottom: 10px;
+    color: #555;
+}
+#booking{
+    padding: 40pxx 20px;
+    background: #f2f2f2;
+    text-align: center;
+}
+#booking h2{
+    margin-bottom: 20px;
+    color: #003366;
+}
+#booking form{
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+#booking button{
+    background: #003366;
+    color: #f2f2f2;
+    cursor: pointer;
+    font-weight: bold;
+}
+.form-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.form-grid div{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.form-grid label{
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+footer{
+    background: #003366;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+}
