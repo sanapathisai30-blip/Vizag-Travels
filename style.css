@@ -83,7 +83,7 @@ header nav a{
     text-align: center;
 }
 #booking h2{
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     color:#003366;
 }
 .card p{
@@ -99,33 +99,33 @@ header nav a{
     margin-bottom: 20px;
     color: #003366;
 }
-#booking form{
-    max-width: 400px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+.book-section{
+    bacground:#f2f2f2;
+    max-width:420px;
+    padding:25px 20px;
+    border-radius:12px;
+    text-align:center;
+    box-sizing:border-box;
 }
-#booking button{
-    background: #003366;
-    color: #f2f2f2;
-    cursor: pointer;
-    font-weight: bold;
+.form-group{
+    margin-bottom:25px;
+    text-align:left;
 }
-.form-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 15px;
+.form-group label{
+    display:block;
+    font-weight:bold;
+    margin-bottom:6px;
+    font-size:14px;
 }
-.form-grid div{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-.form-grid label{
-    font-weight: bold;
-    font-size: 13px;
-    margin-bottom: 5px;
+.form-group input,
+.form-group select{
+    width:100%;
+    padding:11px:
+    border:1px solid;
+border -radius:6px;
+font-size:14px;
+box-sizing:border-box;
+backgrounf:white;
 }
 
 footer{
